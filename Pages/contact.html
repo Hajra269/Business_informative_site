@@ -1,0 +1,70 @@
+<html>
+	</head>
+		<title>Trainee</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/style.css"></link>
+	</head>
+<body>
+	<div id="header">
+		<div style="float:right;height:40%; width:40%;margin-right:350px;padding-top:10px;">
+			<b>My First Website</b>
+		</div>
+		<div style="float:left;padding-left:20px;margin-left:40px;">
+			<a href="./home.html"><img src="../Picture/Bitrupt_logo.png" width="130%" height="90%"></a>
+		</div>
+	</div>
+	<div style="height:100%; width:100%;">
+		<div id="nav2" onclick="openIconSidebar()">
+			<button class="button"><a href="./home.html" id="link"><b>Home</b></a></button>
+			<button class="button"><a href="./profile.html" id="link"><b>Profile</b></a></button>
+			<button class="button"><a href="./about.html" id="link"><b>About Us</b></a></button>
+			<button class="button"><a href="./contact.html" id="link"><b>Contact Us</b></a></button>
+			<button class="login"><a href="./index.html" id="link"><b>Log Out</b></a></button>
+		</div>
+		<div id="nav1" onclick="closeIconSidebar()">
+			<button class="button"><a href="./home.html" id="link"><b><i class="fas fa-home"></i></b></a></button>
+			<button class="button"><a href="./profile.html" id="link"><b><i class="fas fa-user"></i></b></a></button>
+			<button class="button"><a href="./about.html" id="link"><b><i class="fas fa-users"></i></b></a></button>
+			<button class="button"><a href="./contact.html" id="link"><b><i class="fas fa-envelope"></i></b></a></button>
+			<button class="login"><a href="./index.html" id="link"><b><i class="fas fa-sign-out-alt"></i></b></a></button>
+		</div>
+		<div id="main" style="background-color:#D8BFD8; height:79%; width:78.2%; margin-left:250px; padding:20px; ">
+			<div id="box1">
+				<form name="form1" onsubmit="Validatation(document.form1.email,document.form1.name)">
+					<div id="label">
+						<label>First Name:</label><input type="text" name="name" style="width:68.5%;margin:3px;" placeholder="Your name" required></input>
+					</div>
+					<div id="label2">
+						<label>Email:</label><input type="text" name="email" style="width:70.5%;margin:3px 33px" placeholder="Your Email" required></input>
+					</div>
+					<div id="label2">
+						<label>Country:</label>
+						<select name = "country" style="width:69%;margin:3px 19px;" required>
+							<option></option>
+							<option>Pakistan</option>
+							<option>America</option>
+							<option>Canada</option>
+							<option>Egypt</option>	
+						</select>
+					</div>
+					<div id="label2">
+						<label>Subject:</label><input type="text" name="subject" style="width:70%;margin:3px 24px;" placeholder="Subject" required></input>
+					</div>
+					<div id="label3">
+						<label>Your Message:</label><br>
+						<textarea name="msg" rows="7" cols="50" placeholder="Write somthing..." required></textarea>
+					</div>
+					<div>
+						<input type="Submit" value="Submit" style="width:20%; height:7%;margin:0px 40px;"></input>
+					</div>
+				</form>
+			</div>
+			<div id="box2">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d57898.72897824444!2d67.03528671899603!3d24.909216459847016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3eb33f5a70a8370f%3A0x71747af0780cf74f!2sBitrupt%2C%20Goth%20Baluch%2C%20Azam%20Khan%20Rd%2C%20Block%2013D-3%20Block%2013%20D%203%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!3m2!1d24.9091427!2d67.07030639999999!5e0!3m2!1sen!2s!4v1605517853780!5m2!1sen!2s" id="map" width="500" height="499.5" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="../js/validation.js"></script>
+</body>
+</html>

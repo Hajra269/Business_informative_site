@@ -1,0 +1,113 @@
+	#nav1
+	{
+		    background-color:#DCDCDC;
+		    float:left;
+		    padding:0px;
+			overflow-x: hidden;
+			overflow-y: hidden;
+			width:0%;
+		    height:0%;
+	}
+	#nav2
+	{
+			width:15%;
+		    height:79.5%;
+		    background-color:#DCDCDC;
+		    float:left;
+		    padding:20px;
+	}
+	#header{
+	        background-color:#D8BFD8; 
+			color:black; height:15%; 
+			font-size:30px; 
+			text-align:center; 
+			margin-bottom:10px;
+			padding-top:35px;
+			font-size:33px;
+			font-family:Georgia;
+	}
+	#box{
+			height:101%;
+			width:100%;
+			background-color:#DCDCDC;
+	}
+	#box1{
+			height:99%;
+			width:48%;
+			background-color:#DCDCDC;
+			float:left;
+		
+	}
+	#box2{
+			height:99%;
+			width:48%;
+			float:right;
+			background-color:#DCDCDC;
+
+	}
+	.button{
+	      background-color: #D8BFD8;
+		  border: none;
+		  color: black;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 17px;
+		  margin: 9px 2px;
+		  cursor: pointer;
+		  width:98%;
+		  font-family:Georgia;
+	}
+	.login{
+	      background-color: #D8BFD8;
+		  border: none;
+		  color: black;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 17px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		  width:98%;
+		  margin-top:150px;
+	}
+	#label{
+		    height:7%; 
+			width:76.5%;
+			background-color:#D8BFD8; 
+			margin:30px 40px 1px;
+			padding-top:11px;
+			padding-left:40px;
+			font-family: Georgia;
+	}
+	#label2{
+			height:7%; 
+			width:76.5%;
+			background-color:#D8BFD8; 
+			margin:10px 40px 1px;
+			padding-top:11px;
+			padding-left:40px;
+			font-family: Georgia;
+	}
+	#label3{
+			height:28%; 
+			width:76.5%;
+			background-color:#D8BFD8; 
+			margin:10px 40px;
+			padding-top:11px;
+			padding-left:40px;
+			font-family: Georgia;
+	}
+	td,th{
+			border: 1px solid black;
+			text-align:center;
+			font-family:Georgia;
+			padding:5px;
+	}
+	#link
+	{
+		color:black;
+		text-decoration: none;
+	}
