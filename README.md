@@ -1,2 +1,2 @@
-# Personel-Project
-Build this project in 2020 to enhance my web development skills. This project build my interest towards web development.
+# Web Development-Project
+It is the website that provide services information to the clients and also it contain a form for user queries.Technology used in Javascript,HTML,CSS.
